@@ -31,25 +31,35 @@ POST <br>
   }<br>
 
 =======================================<br>
+<br>
+Get particular role info with role id
+<br>
 
   /roleinfo/<br>
   POST<br>
     body:<br>
   {<br>
-	"role_id": <NUMBER> <br>
+	"role_id": <NUM> <br>
   }<br>
 
 ==============================================<br>
+<br>
+Get all Roles info
+<br>
 
   /roleinfo<br>
   GET<br>
 
 ==============================================<br>
+  Create role and update role:<br>
+
+Update role needs "role_id" in body<br>
+<br>
   /editrole/<br>
   POST<br>
     body:<br>
   {<br>
-	"role_id": <NUMBER>, <br>
+	"role_id": <NUMBER>,(optional) <br>
 	"role_name": <NAME>, <br>
 	"rounds: [<br>
 	<ROUND_NAME>,<br>
