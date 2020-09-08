@@ -39,7 +39,7 @@ Get particular role info with role id
   POST<br>
     body:<br>
   {<br>
-	"role_id": "<NUM>" <br>
+	"role_id": 1<br>
   }<br>
 
 ==============================================<br>
@@ -59,8 +59,8 @@ Update role needs "role_id" in body<br>
   POST<br>
     body:<br>
   {<br>
-	"role_id": "<NUMBER>",(optional) <br>
-	"role_name": "<NAME>", <br>
+	"role_id": 1,(optional) <br>
+	"role_name": "HR", <br>
 	"rounds: [<br>
 	<ROUND_NAME>,<br>
 	<ROUND_NAME>,<br>
