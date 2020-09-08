@@ -1,0 +1,9 @@
+asgiref==3.2.10
+Django==3.1
+gunicorn==19.10.0
+djangorestframework==3.11.1
+pip==20.0.2
+pytz==2020.1
+setuptools==45.1.0
+sqlparse== 0.3.1
+wheel==0.34.2
