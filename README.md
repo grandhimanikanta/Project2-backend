@@ -9,7 +9,7 @@ Live URL : https://recrtuit-a-thon.herokuapp.com/ <br>
 <p><strong>body</strong></p>
 <blockquote>
 <p>{<br>
-“username” : <a href="mailto:%22manikanta@manikanta.com">"manikanta/a>",<br>
+“username” : "manikanta"<br>
 “password” : “manikanta”<br>
 }`</p>
 </blockquote>
@@ -62,6 +62,6 @@ Live URL : https://recrtuit-a-thon.herokuapp.com/ <br>
 <p><strong>body</strong></p>
 <blockquote>
 <p>{<br>
-<a href="mailto:%22username%22:%22mani13234@gmail.com">“username”:"mani13234@gmail.com</a>"<br>
+“username”:"mani13234"<br>
 }</p>
 </blockquote>
