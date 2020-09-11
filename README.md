@@ -9,7 +9,7 @@ Live URL : https://recrtuit-a-thon.herokuapp.com/ <br>
 <p><strong>body</strong></p>
 <blockquote>
 <p>{<br>
-“username” : "manikanta",<br>
+“username” : <a href="mailto:%22manikanta@manikanta.com">"manikanta/a>",<br>
 “password” : “manikanta”<br>
 }`</p>
 </blockquote>
@@ -57,4 +57,11 @@ Live URL : https://recrtuit-a-thon.herokuapp.com/ <br>
 ]<br>
 }</p>
 </blockquote>
-
+<h2 id="isrecruiter">/isrecruiter/</h2>
+<h3 id="post-5">post</h3>
+<p><strong>body</strong></p>
+<blockquote>
+<p>{<br>
+<a href="mailto:%22username%22:%22mani13234@gmail.com">“username”:"mani13234@gmail.com</a>"<br>
+}</p>
+</blockquote>
