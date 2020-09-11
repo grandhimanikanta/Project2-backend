@@ -137,4 +137,17 @@ class RoleEdit(GenericAPIView):
                 return Response({"message" : "Data Inserted"})
             except:
                 return Response({"message" : "Error while inserting the data, Not valid input request"})
+            
+class isrecruier(GenericAPIView):
+    authentication_classes = ()
+    permission_classes = ()
+
+    def post(self, request, *args, **kwargs):
+        data = request.data
+        try:
+            username = data['username']
+            canditate_details = canditates.objects.get(email_address=username)
+            return Response({'isrecruiter':False})
+        except:
+            return Response({'isrecruiter':True})
 
