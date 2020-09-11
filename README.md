@@ -4,7 +4,7 @@ Hackton
 Live URL : https://recrtuit-a-thon.herokuapp.com/ <br>
 <br>
 
-<h2 id="userlogin">/user/login/</h2>
+<h2 id="userlogin">/users/login/</h2>
 <h3 id="post">POST</h3>
 <p><strong>body</strong></p>
 <blockquote>
@@ -13,7 +13,7 @@ Live URL : https://recrtuit-a-thon.herokuapp.com/ <br>
 “password” : “manikanta”<br>
 }`</p>
 </blockquote>
-<h2 id="userverify_login">/user/verify_login</h2>
+<h2 id="userverify_login">/users/verify_login</h2>
 <h3 id="post-1">POST</h3>
 <p><strong>body</strong></p>
 <blockquote>
@@ -21,7 +21,7 @@ Live URL : https://recrtuit-a-thon.herokuapp.com/ <br>
 “token” : 12345678sdfghgfcvbn<br>
 }</p>
 </blockquote>
-<h2 id="userlogout">/user/logout</h2>
+<h2 id="userlogout">/users/logout</h2>
 <h3 id="post-2">POST</h3>
 <p><strong>body</strong></p>
 <blockquote>
