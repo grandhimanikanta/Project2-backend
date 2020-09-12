@@ -19,7 +19,7 @@ from rest_framework.authtoken.views import obtain_auth_token
 from django.contrib.auth.models import User
 from rest_framework import routers
 from Hackapp import views
-from Hackapp.views import UserLoginAPIView, UserLogoutAPIView, UserVerifyLoginAPIView,RoleInfo, RoleEdit,isrecruier
+from Hackapp.views import UserLoginAPIView, UserLogoutAPIView, UserVerifyLoginAPIView,RoleInfo, RoleEdit,isrecruier,listofusers
 
 app_name='users'
 
@@ -35,4 +35,5 @@ urlpatterns = [
     path('roleinfo/',RoleInfo.as_view(),name='roleinfo'),
     path('editrole/',RoleEdit.as_view(),name='editrole'),
     path('isrecruiter/',isrecruier.as_view(),name='isrecruiter'),
+    path('listofusers/',listofusers.as_view(),name='listofusers'),
 ]
