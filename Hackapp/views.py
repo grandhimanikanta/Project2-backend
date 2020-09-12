@@ -150,4 +150,19 @@ class isrecruier(GenericAPIView):
             return Response({'isrecruiter':False})
         except:
             return Response({'isrecruiter':True})
+        
+class listofusers(GenericAPIView):
+    authentication_classes = ()
+    permission_classes = ()
+    def get(self, request):
+        cand_info=canditates.objects.all()
+        details=cand_info.values()
+        info=[]
+        for i in range(0,len(details)):
+            name=details[i]['canditate_name']
+            position=details[i]['domain']
+            exp=details[i]['experience']
+            info.append({"name":name,"position":position,"experience":int(exp)})
+        print(info)
+        return Response({"data":info},status=status.HTTP_200_OK)
 
