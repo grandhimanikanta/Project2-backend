@@ -65,3 +65,6 @@ Live URL : https://recrtuit-a-thon.herokuapp.com/ <br>
 “username”:"mani13234"<br>
 }</p>
 </blockquote>
+
+<h2 id="listofusers">/listofusers/</h2>
+<h3 id="get">GET</h3>
